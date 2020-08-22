@@ -1711,6 +1711,7 @@
     <Content Include="fontawesome\webfonts\fa-regular-400.svg" />
     <Content Include="fontawesome\webfonts\fa-solid-900.svg" />
     <Content Include="homepage.aspx" />
+    <Content Include="imgs\books1.png" />
     <Content Include="imgs\generaluser.png" />
     <Content Include="imgs\adminuser.jpg" />
     <Content Include="imgs\library.jpg" />
@@ -1723,6 +1724,7 @@
     <Content Include="imgs\books.png" />
     <Content Include="userlogin.aspx" />
     <Content Include="usersignup.aspx" />
+    <Content Include="userviewprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -1762,6 +1764,13 @@
     </Compile>
     <Compile Include="usersignup.aspx.designer.cs">
       <DependentUpon>usersignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userviewprofile.aspx.cs">
+      <DependentUpon>userviewprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userviewprofile.aspx.designer.cs">
+      <DependentUpon>userviewprofile.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
